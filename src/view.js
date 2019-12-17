@@ -46,7 +46,7 @@ export default class View {
 
   renderStartScreen() {
     this.context.fillStyle = 'white';
-    this.context.font = '18px "Consolas"';
+    this.context.font = '18px "Press Start 2P"';
     this.context.textAlign = 'center';
     this.context.textBaseline = 'middle';
     this.context.fillText('Press ENTER to Start', this.width / 2, this.height / 2);
@@ -57,7 +57,7 @@ export default class View {
     this.context.fillRect(0, 0, this.width, this.height);
 
     this.context.fillStyle = 'white';
-    this.context.font = '18px "Consolas"';
+    this.context.font = '18px "Press Start 2P"';
     this.context.textAlign = 'center';
     this.context.textBaseline = 'middle';
     this.context.fillText('Press ENTER to Resume', this.width / 2, this.height / 2);
@@ -67,7 +67,7 @@ export default class View {
     this.cleanScreen();
 
     this.context.fillStyle = 'white';
-    this.context.font = '18px "Consolas"';
+    this.context.font = '18px "Press Start 2P"';
     this.context.textAlign = 'center';
     this.context.textBaseline = 'middle';
     this.context.fillText('GAME OVER', this.width / 2, this.height / 2 - 48);
@@ -105,7 +105,7 @@ export default class View {
     this.context.textAlign = 'start';
     this.context.textBaseline = 'top';
     this.context.fillStyle = 'white';
-    this.context.font = '14px "Consolas"';
+    this.context.font = '14px "Press Start 2P"';
 
     this.context.fillText(`Score: ${score}`, this.panelX, this.panelY);
     this.context.fillText(`Lines: ${lines}`, this.panelX, this.panelY + 24);
